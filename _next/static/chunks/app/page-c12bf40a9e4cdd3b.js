@@ -79,7 +79,7 @@
                                 alt: ""
                             })]
                         }), (0, s.jsxs)("a", {
-                            href: "https://www.dextools.io/",
+                            href: "https://www.dextools.io/app/en/ether/pair-explorer/0x4cd0f2a5de4a4a887fdcb6b42182a86985e3d0d9?t=1740050739631",
                             target: "_dex",
                             className: "jsx-5d063f15908ba449",
                             children: [(0, s.jsx)("span", {
@@ -90,7 +90,7 @@
                                 alt: ""
                             })]
                         }), (0, s.jsxs)("a", {
-                            href: "https://dexscreener.com",
+                            href: "https://dexscreener.com/ethereum/0x4cd0f2a5de4a4a887fdcb6b42182a86985e3d0d9",
                             target: "_dexs",
                             className: "jsx-5d063f15908ba449",
                             children: [(0, s.jsx)("span", {
@@ -249,7 +249,7 @@
                                         children: "X"
                                     })]
                                 }), (0, s.jsxs)("a", {
-                                    href: "https://www.dextools.io/",
+                                    href: "https://www.dextools.io/app/en/ether/pair-explorer/0x4cd0f2a5de4a4a887fdcb6b42182a86985e3d0d9?t=1740050739631",
                                     target: "_dex",
                                     children: [(0, s.jsx)(i.default, {
                                         src: p,
@@ -258,7 +258,7 @@
                                         children: "Dextools"
                                     })]
                                 }), (0, s.jsxs)("a", {
-                                    href: "https://dexscreener.com",
+                                    href: "https://dexscreener.com/ethereum/0x4cd0f2a5de4a4a887fdcb6b42182a86985e3d0d9",
                                     target: "_dexs",
                                     children: [(0, s.jsx)(i.default, {
                                         src: f,
