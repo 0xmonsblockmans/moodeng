@@ -101,7 +101,7 @@
                                 alt: ""
                             })]
                         }), (0, s.jsxs)("a", {
-                            href: "https://app.uniswap.org/explore/tokens/ethereum/0xcomingsoon",
+                            href: "https://app.uniswap.org/explore/tokens/ethereum/0xcfF6567D958260fC7769BCE7f97D3395833BBF48",
                             target: "_uni",
                             className: "jsx-5d063f15908ba449",
                             children: [(0, s.jsx)("span", {
@@ -196,7 +196,7 @@
                 let [t, c] = (0, a.useState)(!1), [n, o] = (0, a.useState)(), [, B] = (0, d.m9)(), M = async () => {
                     try {
                         var A, e, t, s;
-                        let a = await U.Z.get("https://api.dexscreener.com/latest/dex/tokens/0xcomingsoon");
+                        let a = await U.Z.get("https://api.dexscreener.com/latest/dex/tokens/0xcfF6567D958260fC7769BCE7f97D3395833BBF48");
                         (null == a ? void 0 : null === (e = a.data) || void 0 === e ? void 0 : null === (A = e.pairs) || void 0 === A ? void 0 : A[0]) && o(null == a ? void 0 : null === (s = a.data) || void 0 === s ? void 0 : null === (t = s.pairs) || void 0 === t ? void 0 : t[0])
                     } catch (A) {
                         console.log(A.message)
@@ -267,7 +267,7 @@
                                         children: "Dexscreener"
                                     })]
                                 }), (0, s.jsxs)("a", {
-                                    href: "https://app.uniswap.org/explore/tokens/ethereum/0xcomingsoon",
+                                    href: "https://app.uniswap.org/explore/tokens/ethereum/0xcfF6567D958260fC7769BCE7f97D3395833BBF48",
                                     target: "_uni",
                                     children: [(0, s.jsx)(i.default, {
                                         src: E,
@@ -303,14 +303,14 @@
                                 className: (0, l.Z)("text-center font-bold", "text-lg sm:text-xl lg:text-2xl"),
                                 children: ["CA:", " ", (0, s.jsx)("span", {
                                     className: "break-all",
-                                    children: "0xcomingsoon"
+                                    children: "0xcfF6567D958260fC7769BCE7f97D3395833BBF48"
                                 })]
                             }), (0, s.jsx)("div", {
                                 className: "shrink-0 overflow-hidden rounded-full border-2 border-primary/30",
                                 children: (0, s.jsxs)("button", {
                                     className: (0, l.Z)("btn-1 flex items-center text-[20px] font-medium leading-none transition", "gap-1", "px-4", "py-2", "hover:opacity-90"),
                                     onClick: () => {
-                                        B("0xcomingsoon"), v.ZP.success("Copied")
+                                        B("0xcfF6567D958260fC7769BCE7f97D3395833BBF48"), v.ZP.success("Copied")
                                     },
                                     children: [(0, s.jsx)(i.default, {
                                         src: w,
