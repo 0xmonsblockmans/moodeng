@@ -143,7 +143,7 @@
                     blurHeight: 8
                 },
                 b = {
-                    src: "/_next/x.png",
+                    src: "/_next/twitter.png",
                     height: 50,
                     width: 50,
                     blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAFVBMVEUBAQEMDAx2dnYcHBwyMjJZWVlRUVEvDc0mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAKklEQVR4nD2KyQ0AMAjDcgD7j4yUVvhlxQEOFuGYpiZi6TfppXZnovM/FgnEAETMHeEiAAAAAElFTkSuQmCC",
