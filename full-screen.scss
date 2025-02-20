@@ -1,0 +1,59 @@
+/**
+ * The challenge here to support "playable queries" and "direction" at the same time and allow mixins like:
+ *   @include query(max-width-550())
+ *   @include query(max-width-550(), ltr())
+ *   @include query(max-width-550(), rtl())
+ */
+.controlButton {
+  display: flex;
+  padding: 0;
+  cursor: pointer;
+  transition-duration: .2s;
+  transition-property: opacity;
+  opacity: 1;
+  border: 0;
+  border-radius: 0;
+  outline: none;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center; }
+  .controlButton:hover {
+    opacity: .7; }
+
+.hidden {
+  visibility: hidden !important;
+  width: 0 !important;
+  min-width: 0 !important;
+  height: 0 !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  opacity: 0 !important; }
+
+.fullScreenControl {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.fullScreenToggle {
+  width: 26px;
+  min-width: 26px;
+  height: 26px;
+  min-height: 26px;
+  transition: transform .2s; }
+  [data-playable-hook='player-container'][data-playable-in-full-screen="true"] .fullScreenToggle {
+    width: 35px;
+    height: 35px; }
+  .fullScreenToggle:hover {
+    transform: scale(1.18); }
+  .fullScreenToggle .enterIcon {
+    display: block; }
+  .fullScreenToggle .exitIcon {
+    display: none; }
+  .fullScreenToggle.inFullScreen:hover {
+    transform: scale(0.8); }
+  .fullScreenToggle.inFullScreen .enterIcon {
+    display: none; }
+  .fullScreenToggle.inFullScreen .exitIcon {
+    display: block; }

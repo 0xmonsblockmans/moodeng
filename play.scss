@@ -1,0 +1,65 @@
+/**
+ * The challenge here to support "playable queries" and "direction" at the same time and allow mixins like:
+ *   @include query(max-width-550())
+ *   @include query(max-width-550(), ltr())
+ *   @include query(max-width-550(), rtl())
+ */
+.controlButton {
+  display: flex;
+  padding: 0;
+  cursor: pointer;
+  transition-duration: .2s;
+  transition-property: opacity;
+  opacity: 1;
+  border: 0;
+  border-radius: 0;
+  outline: none;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center; }
+  .controlButton:hover {
+    opacity: .7; }
+
+.hidden {
+  visibility: hidden !important;
+  width: 0 !important;
+  min-width: 0 !important;
+  height: 0 !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  opacity: 0 !important; }
+
+.playControl {
+  position: relative;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start; }
+
+.playbackToggle {
+  width: 26px;
+  min-width: 26px;
+  height: 26px;
+  min-height: 26px; }
+  [data-playable-hook='player-container'][data-playable-in-full-screen="true"] .playbackToggle {
+    width: 35px;
+    min-width: 35px;
+    height: 35px;
+    min-height: 35px; }
+    [data-playable-hook='player-container'][data-playable-in-full-screen="true"] .playbackToggle .icon_small {
+      display: none; }
+    [data-playable-hook='player-container'][data-playable-in-full-screen="true"] .playbackToggle .icon_big {
+      display: block; }
+  .playbackToggle .playIcon {
+    display: none; }
+  .playbackToggle .pauseIcon {
+    display: block; }
+  .playbackToggle.paused .playIcon {
+    display: block; }
+  .playbackToggle.paused .pauseIcon {
+    display: none; }
+  .playbackToggle .icon_small {
+    display: block; }
+  .playbackToggle .icon_big {
+    display: none; }
